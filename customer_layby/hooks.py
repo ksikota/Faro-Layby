@@ -242,3 +242,6 @@ app_license = "unlicense"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+override_doctype_class = {
+    "Customer": "customer_layby.doctype.customer.custom_customer.CustomCustomer"
+}
